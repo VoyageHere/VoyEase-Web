@@ -40,3 +40,20 @@ body {
 #home h1 span {
     color: #ee522e;
 }
+
+.icon-large {
+    font-size: 40px;
+}
+
+
+@media (max-width: 767px) { /* Adjust the max-width value based on your needs */
+    #home p {
+        font-size: large;
+    }
+    .footer-items {
+        width: 100%;
+    }
+    .icon-large {
+        font-size: 25px; /* Adjust the size as needed */
+    }
+}
